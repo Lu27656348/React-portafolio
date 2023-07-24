@@ -1,16 +1,16 @@
+import { useState } from "react";
+import useMediaQuery from "./hooks/useMediaQuery.jsx";
+import Navbar from './scenes/Navbar.jsx';
+
 export default function App() {
+  const [selectedPage, setSelectedPage] = useState("home");
+  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
   return (
-    
-    <div className = "bg-slate-200 flex flex-box gap-4">
-      <div className = "bg-slate-600 basis-1/3 box-border h-32 w-32 flex justify-center items-center">
-        <h1>Hola Mundo</h1> 
-      </div>
-      <div className = "bg-slate-600 basis-1/3 box-border h-32 w-32 flex justify-center items-center">
-        <h1>Hola Mundo</h1> 
-      </div>
-      <div className = "bg-slate-600 basis-1/3 box-border h-32 w-32 flex justify-center items-center">
-        <h1>Hola Mundo</h1> 
-      </div>
+    <div className = "app bg-deep-blue">
+      <Navbar
+        selectedPage = {selectedPage}
+        setSelectedPage = {setSelectedPage}
+      />
     </div>
   )
 }
