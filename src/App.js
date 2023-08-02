@@ -3,6 +3,10 @@ import useMediaQuery from "./hooks/useMediaQuery.jsx";
 import Navbar from './scenes/Navbar.jsx';
 import DotGroup from './scenes/DotGroup.jsx';
 import Landing from './scenes/Landing.jsx';
+import LineDivider from './components/LineDivider.jsx'
+import MySkills from './scenes/MySkills.jsx';
+import Projects from './scenes/Projects.jsx';
+import HardSkills from './scenes/HardSkills.jsx'
 
 export default function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -34,6 +38,16 @@ export default function App() {
         />
       )}
       <Landing selectedPage = {selectedPage} />
+      </div>
+      <LineDivider/>
+      <div className = "w-5/6 mx-auto md:h-full" > 
+        <MySkills/>
+      </div>
+      <div className = "w-5/6 mx-auto" > 
+        <HardSkills/>
+      </div>
+      <div className = "w-5/6 mx-auto" > 
+        <Projects/>
       </div>
     </div>
   )

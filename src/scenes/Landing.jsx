@@ -26,7 +26,7 @@ const Landing = ({setSelectedPage}) => {
             <div className = "z-30 basis-2/5 mt-12 md:mt-32">
                 <motion.div initial = "hidden" whileInView = "visible" viewport={{once: true, amount: 0.5}} transition={{duration: 0.5}} variants = {{hidden: {opacity: 0, x: -50}, visible: {opacity: 1, x: 0}}}>
                     <p className = "text-6xl font-playfair z-10 text-center md:text-start">Luis {""} <span className = "xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]">Somoza</span></p>
-                    <p className = "mt-32 mb-7 text-sm text-center md:text-start">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p className = "mt-32 mb-7 text-sm text-center md:text-start">Full Stack Web Developer</p>
                 </motion.div>
                 <motion.div
                     className="flex mt-5 justify-center md:justify-start"

@@ -23,6 +23,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage}) => {
                 ? 
                 (<div className = "flex justify-between gap-16 font-opensans text-sm font-semibold">
                     <Link page = "Home" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
+                    <Link page = "About" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
                     <Link page = "Skills" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
                     <Link page = "Projects" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
                     <Link page = "Testimonials" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
@@ -40,6 +41,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage}) => {
                     </div>
                     <div className = "flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
                         <Link page = "Home" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
+                        <Link page = "About" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
                         <Link page = "Skills" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
                         <Link page = "Projects" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
                         <Link page = "Testimonials" selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}></Link>
