@@ -7,6 +7,7 @@ import LineDivider from './components/LineDivider.jsx'
 import MySkills from './scenes/MySkills.jsx';
 import Projects from './scenes/Projects.jsx';
 import HardSkills from './scenes/HardSkills.jsx'
+import Testimonials from './scenes/Testimonials.jsx';
 
 export default function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -22,6 +23,7 @@ export default function App() {
       window.addEventListener("scroll", handleScroll);
       return () => window.removeEventListener("scroll", handleScroll)
     }
+    handleScroll();
   }, [])
   return (
     <div className = "app bg-deep-blue">
@@ -48,6 +50,9 @@ export default function App() {
       </div>
       <div className = "w-5/6 mx-auto" > 
         <Projects/>
+      </div>
+      <div className = "w-5/6 mx-auto md:h-full" > 
+        <Testimonials/>
       </div>
     </div>
   )
