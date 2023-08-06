@@ -9,6 +9,7 @@ import Projects from './scenes/Projects.jsx';
 import HardSkills from './scenes/HardSkills.jsx'
 import Testimonials from './scenes/Testimonials.jsx';
 import Contact from './scenes/Contact.jsx';
+import Footer from './scenes/Footer.jsx'
 
 export default function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -58,6 +59,7 @@ export default function App() {
       <div className = "w-5/6 mx-auto" > 
         <Contact/>
       </div>
+        <Footer/>
     </div>
   )
 }
