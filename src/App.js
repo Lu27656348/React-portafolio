@@ -41,7 +41,7 @@ export default function App() {
           setSelectedPage = {setIsTopOfPage}
         />
       )}
-      <Landing selectedPage = {selectedPage} />
+      <Landing selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}/>
       </div>
       <LineDivider/>
       <div className = "w-5/6 mx-auto md:h-full" > 

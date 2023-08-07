@@ -26,7 +26,7 @@ const Landing = ({setSelectedPage}) => {
             <div className = "z-30 basis-2/5 mt-12 md:mt-32">
                 <motion.div initial = "hidden" whileInView = "visible" viewport={{once: true, amount: 0.5}} transition={{duration: 0.5}} variants = {{hidden: {opacity: 0, x: -50}, visible: {opacity: 1, x: 0}}}>
                     <p className = "text-6xl font-playfair z-10 text-center md:text-start">Luis {""} <span className = "xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]">Somoza</span></p>
-                    <p className = "mt-32 mb-7 text-sm text-center md:text-start">Full Stack Web Developer</p>
+                    <p className = "mt-32 mb-7 text-sm text-center md:text-start">Hello! It's a pleasure to greet you, my name is Luis and I welcome you to my portfolio. In this place, you will discover that I am a software engineer and I specialize in WEB technologies, I constantly seek to innovate and learn new technologies that allow me to create intuitive and robust applications that provide my users a high quality experience. As everything in life is balance, I have strived to be an integral programmer, developing frontend and backend applications. If you want to know more, keep scrolling down and get to know me better.</p>
                 </motion.div>
                 <motion.div
                     className="flex mt-5 justify-center md:justify-start"
