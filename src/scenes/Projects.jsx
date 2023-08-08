@@ -1,5 +1,9 @@
 import LineDivider from '../components/LineDivider.jsx';
 import { motion } from 'framer-motion';
+import ucabFormImage from '../assets/ucab-forms.png';
+import sportCompetitionsImage from '../assets/sport-competitions.png';
+import spreadSheetImage from '../assets/spreadsheet.png';
+
 
 const container = {
     hidden: {},
@@ -15,21 +19,20 @@ const container = {
     visible: { opacity: 1, scale: 1 },
   };
   
-  const Project = ({ title }) => {
+  const Project = ({ title, description, image, url}) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
       bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
     const projectTitle = title.split(" ").join("-").toLowerCase();
-  
     return (
       <motion.div variants={projectVariant} className="relative">
         <div className={overlayStyles}>
           <p className="text-2xl font-playfair">{title}</p>
-          <p className="mt-7">
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-            porttitor accumsan tincidunt.
+          <p>
+            {description}
           </p>
+          <p className = "text-red"><a href={url}>click here</a></p>
         </div>
-        <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+        <img src={image} alt={projectTitle} href={url}/>
       </motion.div>
     );
   };
@@ -78,12 +81,11 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="UCAB Rides" />
-          <Project title="Sport Competitions" />
+          <Project title="UCAB Forms" description = "A React application that allows you to create dynamic forms that can be shared to your users via QR code and summarizes the answers through statistical analysis." image = {ucabFormImage} url = "https://ucab-forms-db.web.app/"/>
+          <Project title="Sport Competitions" description = "Made with Bootstrap and using PHP for the backend, sport competitions is a applications to record running times and show the best 5 runners" image = {sportCompetitionsImage} />
 
           {/* ROW 2 */}
-          <Project title="Socket Chat" />
-          <Project title="Spreadsheet Generator" />
+          <Project title="Spreadsheet Generator" description = "Made in VueJS, SASS and Express, it is an application that automates the necessary forms for the thesis process at the Universidad Católica Andrés Bello. Try it user: admin, password: admin" image = {spreadSheetImage} url = "https://frontend-ucabcunaguaro.vercel.app/#/"/>
           <Project title="Ordering Manager" />
 
           {/* ROW 3 */}
