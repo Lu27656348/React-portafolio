@@ -44,23 +44,22 @@ export default function App() {
       <Landing selectedPage = {selectedPage} setSelectedPage = {setSelectedPage}/>
       </div>
       <LineDivider/>
-      <div className = "w-5/6 mx-auto md:h-full" > 
+      <div className = "w-5/6 mx-auto md:h-full mt-10 mb-10" > 
         <MySkills/>
       </div>
-      <LineDivider/>
-      <div className = "w-5/6 mx-auto" > 
+      <div className = "w-5/6 mx-auto mt-10 mb-10" > 
         <HardSkills/>
       </div>
       <LineDivider/>
-      <div className = "w-5/6 mx-auto" > 
+      <div className = "w-5/6 mx-auto mt-10 mb-10" > 
         <Projects/>
       </div>
       <LineDivider/>
-      <div className = "w-5/6 mx-auto md:h-full" > 
+      <div className = "w-5/6 mx-auto md:h-full mt-10 mb-10" > 
         <Testimonials/>
       </div>
       <LineDivider/>
-      <div className = "w-5/6 mx-auto" > 
+      <div className = "w-5/6 mx-auto mt-10 mb-10" > 
         <Contact/>
       </div>
         <Footer/>

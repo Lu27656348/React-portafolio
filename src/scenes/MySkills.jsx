@@ -7,7 +7,7 @@ const MySkills = () => {
     const isAboveLarge = useMediaQuery("(min-width: 1060px)");
     return (
         <section id = "about" className = "pt-10 pb-24">
-            <div className = "md:flex md:justify-between md:gap-16 mt-32">
+            <div className = "md:flex md:justify-between md:gap-16 mt-48 mb-16 ">
                 <motion.div className = "md:w-1/3" initial = "hidden" whileInView = "visible" viewport = {{once: true, amount: 0.5 }} transition = {{duration: 0.5}} variants = {{hidden: {opacity: 0, x: -50}, visible:{ opacity: 1, x: 0}}}>
                     <p className  = "font-playfair font-semibold text-4xl mb-5">SOFT{" "}<span className = "text-red">SKILLS</span></p>
                     <LineDivider width = "w-1/3"/>
@@ -32,7 +32,7 @@ const MySkills = () => {
                     </div>
             </div>
                     {/* SKILLS */}
-            <div className="md:flex md:justify-between mt-16 gap-32">
+            <div className="md:flex md:justify-between mt-16 mb-16 gap-32">
                 <motion.div
                 className="md:w-1/3 mt-10"
                 initial="hidden"
