@@ -3,6 +3,9 @@ import { motion } from 'framer-motion';
 import ucabFormImage from '../assets/ucab-forms.png';
 import sportCompetitionsImage from '../assets/sport-competitions.png';
 import spreadSheetImage from '../assets/spreadsheet.png';
+import socketChatImage from '../assets/socket-chat.png';
+import orderingManagerImage from '../assets/ordering-manager.png';
+import mqttSecurityImage from '../assets/mqttSecurity.png';
 
 
 const container = {
@@ -77,7 +80,7 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[500px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
           </div>
@@ -86,14 +89,14 @@ const Projects = () => {
 
           {/* ROW 2 */}
           <Project title="Spreadsheet Generator" description = "Made in VueJS, SASS and Express, it is an application that automates the necessary forms for the thesis process at the Universidad Católica Andrés Bello. Try it user: admin, password: admin" image = {spreadSheetImage} url = "https://frontend-ucabcunaguaro.vercel.app/#/"/>
-          <Project title="Ordering Manager" />
+          <Project title="Ordering Manager" image = {orderingManagerImage}/>
 
           {/* ROW 3 */}
-          <Project title="REST-API Postgres" />
-          <Project title="immotic MQTT" />
+          <Project title="Socket Chat" image = {socketChatImage}/>
+          <Project title="MQTT Security" image = {mqttSecurityImage}/>
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[500px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             SMOOTH USER EXPERIENCE
           </div>

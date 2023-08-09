@@ -21,7 +21,7 @@ const Testimonials = () => {
             TESTIMONIALS
           </p>
           <LineDivider width="mx-auto w-2/5" />
-          <p className="mt-10">
+          <p className="mt-10 mb-10">
             Here's What People are Saying About My Work.
           </p>
         </motion.div>
