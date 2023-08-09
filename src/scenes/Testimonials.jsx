@@ -42,7 +42,7 @@ const Testimonials = () => {
           >
             <p className="font-playfair text-6xl">“</p>
             <p className="text-center text-xl">
-              A auctor pharetra hendrerit mattis amet etiam interdum platea.
+            I've worked with Luis Somoza on several projects, and I've always been impressed with his/her technical skills and problem-solving abilities.
             </p>
           </motion.div>
   
@@ -60,8 +60,7 @@ const Testimonials = () => {
           >
             <p className="font-playfair text-6xl">“</p>
             <p className="text-center text-xl">
-              Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
-              lectus.
+            Luis Somoza is a highly skilled and experienced programmer. He is also a great communicator and team player.
             </p>
           </motion.div>
   
@@ -79,7 +78,7 @@ const Testimonials = () => {
           >
             <p className="font-playfair text-6xl">“</p>
             <p className="text-center text-xl">
-              Fames odio in at. At magna ornare dictum lectus.
+            He is also a great mentor and teacher, and he is always willing to share his knowledge with others.
             </p>
           </motion.div>
         </div>
