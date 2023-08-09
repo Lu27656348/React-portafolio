@@ -53,7 +53,7 @@ const MySkills = () => {
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
-                    <p className="mt-5">
+                    <p className="mt-5 mb-10">
                     Creativity is the seed of innovation, so I dedicate myself to cultivate it daily, making projects with new technologies, making new and refreshing approaches to old applications and acquiring more knowledge and skills that allow me to have a broader vision of what I develop.
                     </p>
                 </motion.div>
@@ -79,7 +79,7 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-5">
+                <p className="mt-5 mb-10">
                 Communication is the basis for any operation, that is why I have dedicated myself to the study and development of techniques for effective communication, which allow for better project leadership, better negotiations with clients and a better workflow.
                 </p>
                 </motion.div>
@@ -104,7 +104,7 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-5">
+                <p className="mt-5 mb-10">
                 On-time delivery, sincerity and effectiveness are words that define me. Whenever I develop a project, I take care to meet and exceed expectations.
                 </p>
                 </motion.div>
