@@ -47,15 +47,19 @@ export default function App() {
       <div className = "w-5/6 mx-auto md:h-full" > 
         <MySkills/>
       </div>
+      <LineDivider/>
       <div className = "w-5/6 mx-auto" > 
         <HardSkills/>
       </div>
+      <LineDivider/>
       <div className = "w-5/6 mx-auto" > 
         <Projects/>
       </div>
+      <LineDivider/>
       <div className = "w-5/6 mx-auto md:h-full" > 
         <Testimonials/>
       </div>
+      <LineDivider/>
       <div className = "w-5/6 mx-auto" > 
         <Contact/>
       </div>
