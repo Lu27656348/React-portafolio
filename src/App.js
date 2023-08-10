@@ -47,11 +47,9 @@ export default function App() {
       <div className = "w-5/6 mx-auto md:h-full mt-10 mb-10" > 
         <MySkills/>
       </div>
-      <LineDivider className = "mt-10 mb-10"/>
       <div className = "w-5/6 mx-auto mt-10 mb-10" > 
         <HardSkills/>
       </div>
-      <LineDivider className = "mt-10 mb-10"/>
       <div className = "w-5/6 mx-auto mt-10 mb-10" > 
         <Projects/>
       </div>
