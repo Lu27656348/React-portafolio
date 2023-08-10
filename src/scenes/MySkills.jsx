@@ -34,7 +34,7 @@ const MySkills = () => {
                     {/* SKILLS */}
             <div className="md:flex md:justify-between mt-16 mb-16 gap-32">
                 <motion.div
-                className="md:w-1/3 mt-10"
+                className="md:w-1/3 mt-10 mb-10"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -60,7 +60,7 @@ const MySkills = () => {
 
                 {/* INNOVATIVE */}
                 <motion.div
-                className="md:w-1/3 mt-10"
+                className="md:w-1/3 mt-10 mb-10"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}

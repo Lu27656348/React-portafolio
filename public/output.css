@@ -737,6 +737,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
 .inline {
   display: inline;
 }
